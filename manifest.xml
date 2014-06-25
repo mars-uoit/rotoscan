@@ -1,0 +1,19 @@
+<package>
+  <description brief="rotoscan_node">
+
+     Driver for Leuze rotoScan laser rangefinder devices, publishing sensor_msgs/LaserScan messages. Currently supports devices connected via Ethernet and 
+     serial port, but could be extended to interface with other models.
+
+  </description>
+  <author>Rene Wagner, Felix Kolbe</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rotoscan_node</url>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="timeutils"/>
+  <rosdep name="boost" />
+
+</package>
+
+

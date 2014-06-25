@@ -1,0 +1,8 @@
+<launch>
+  <node name="laserscanner_tcp" pkg="rotoscan_node" type="rotoscan_node" >
+    <param name="connection" type="str" value="tcp" />
+    <param name="host" type="str" value="192.168.1.1" />
+    <param name="port" type="str" value="9008" />
+    <param name="max_range" type="double" value="40." />
+  </node>
+</launch>

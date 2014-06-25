@@ -1,0 +1,8 @@
+<launch>
+  <node name="laserscanner_tty" pkg="rotoscan_node" type="rotoscan_node" >
+    <param name="connection" type="str" value="tty" />
+    <param name="device" type="str" value="/dev/ttyUSB0" />
+    <param name="baudrate" type="int" value="57600" />
+    <param name="max_range" type="double" value="50." />
+  </node>
+</launch>
