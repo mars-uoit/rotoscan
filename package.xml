@@ -6,7 +6,7 @@
      serial port, but could be extended to interface with other models.</description>
   <license>BSD</license>
   <author>Rene Wagner, Felix Kolbe</author>
-  <maintainer email="tony.baltovski@gmail.com">Tony Baltovski</maintainer>
+  <maintainer email="todo@todo.com">todo</maintainer>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>roscpp</build_depend>
