@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+  <name>rotoscan</name>
+  <version>0.0.0</version>
+  <description>The rotoscan metapackage contains the driver and necessary utilities.</description>
+  <license>BSD</license>
+  <author>Rene Wagner, Felix Kolbe</author>
+  <maintainer email="todo@todo.com">todo</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+    <metapackage/>
+  </export>
+</package>
