@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package>
+  <name>timeutils</name>
+  <version>0.0.0</version>
+  <description>timeutils contains utility code related to time(stamps) on *NIX.</description>
+  <license>BSD</license>
+  <author>Rene Wagner</author>
+  <maintainer email="todo@todo.com">todo</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
