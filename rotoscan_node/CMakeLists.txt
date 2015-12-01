@@ -24,6 +24,8 @@ target_link_libraries(rotoscan_node ${catkin_LIBRARIES} ${Boost_LIBRARIES})
 install(DIRECTORY launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
-
-# Check the validity of the supplied launch files.
-roslaunch_add_file_check(launch)
+if(CATKIN_ENABLE_TESTING)
+  find_package(roslaunch REQUIRED)
+  roslaunch_add_file_check(launch/laserscanner_tcp)
+  roslaunch_add_file_check(launch/laserscanner_tty)
+endif()
