@@ -1,4 +1,4 @@
-# The rotoscan metapackage
+# The rotoscan metapackage [![Build Status](https://travis-ci.org/mars-uoit/rotoscan.svg)](https://travis-ci.org/mars-uoit/rotoscan)
 This contains the driver and necessary utilities for Leuze rotoScan laser rangefinder device.
 
 ## rotoscan_node
