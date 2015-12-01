@@ -26,6 +26,6 @@ install(DIRECTORY launch
 )
 if(CATKIN_ENABLE_TESTING)
   find_package(roslaunch REQUIRED)
-  roslaunch_add_file_check(launch/laserscanner_tcp)
-  roslaunch_add_file_check(launch/laserscanner_tty)
+  roslaunch_add_file_check(launch/laserscanner_tcp.launch)
+  roslaunch_add_file_check(launch/laserscanner_tty.launch)
 endif()
